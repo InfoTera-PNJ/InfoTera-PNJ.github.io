@@ -21,11 +21,11 @@ const renderImage = async () => {
         
     });
 
+
+
     carouselImages.innerHTML = imageTemplate;
 }
         
-
-
 renderImage()
 
 
