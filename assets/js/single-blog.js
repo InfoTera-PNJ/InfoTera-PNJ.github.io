@@ -12,6 +12,7 @@ const renderData = async () => {
 
     const titleSection = document.getElementById('title-section');
     const contentSection = document.getElementById('content-section');
+    const imageSection = document.getElementById('image-section');
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     const value = urlParams.get('blog');
@@ -25,7 +26,7 @@ const renderData = async () => {
     });
 
     const { judul, konten, image} = singleData[0];
-
+    imageSection.src = image;
     titleSection.innerText = judul
     contentSection.innerHTML = konten
 
