@@ -1179,10 +1179,6 @@ input:checked + .toggle-bg {
   margin-bottom: 1rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -1709,6 +1705,16 @@ input:checked + .toggle-bg {
   background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
 }
 
+.bg-text {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 216 177 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[url\(\'https\:\/\/flowbite\.s3\.amazonaws\.com\/docs\/jumbotron\/conference\.jpg\'\)\] {
   background-image: url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg');
 }
@@ -2094,6 +2100,11 @@ input:checked + .toggle-bg {
   background-color: rgb(0 31 63 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-secunder:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(58 109 140 / var(--tw-bg-opacity, 1));
+}
+
 .hover\:text-blue-600:hover {
   --tw-text-opacity: 1;
   color: rgb(28 100 242 / var(--tw-text-opacity, 1));
@@ -2116,6 +2127,16 @@ input:checked + .toggle-bg {
 .focus\:border-blue-500:focus {
   --tw-border-opacity: 1;
   border-color: rgb(63 131 248 / var(--tw-border-opacity, 1));
+}
+
+.focus\:border-premier:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 31 63 / var(--tw-border-opacity, 1));
+}
+
+.focus\:border-text:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(234 216 177 / var(--tw-border-opacity, 1));
 }
 
 .focus\:outline-none:focus {
@@ -2153,6 +2174,21 @@ input:checked + .toggle-bg {
 .focus\:ring-gray-400:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(156 163 175 / var(--tw-ring-opacity, 1));
+}
+
+.focus\:ring-text:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(234 216 177 / var(--tw-ring-opacity, 1));
+}
+
+.focus\:ring-white:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity, 1));
+}
+
+.focus\:ring-premier:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(0 31 63 / var(--tw-ring-opacity, 1));
 }
 
 .group:hover .group-hover\:bg-white\/50 {
