@@ -32,6 +32,13 @@ module.exports = {
         fadeindown: 'fade-in-down 1s ease-in 0.25s 1',
         'slide-in-right': 'slide-in-right 5s ease-out forwards',
         'slide-in-left': 'slide-in-left 5s ease-out forwards'
+      },
+      colors: {
+        'premier' : '#001F3F',
+        'secunder' : '#3A6D8C',
+        'text' : '#EAD8B1',
+        'strip' : '#6A9AB0',
+
       }
 
     },
