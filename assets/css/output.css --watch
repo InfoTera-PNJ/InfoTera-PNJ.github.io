@@ -1279,10 +1279,6 @@ input:checked + .toggle-bg {
   height: 2.25rem;
 }
 
-.h-\[400px\] {
-  height: 400px;
-}
-
 .h-full {
   height: 100%;
 }
@@ -1479,10 +1475,6 @@ input:checked + .toggle-bg {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-8 {
-  gap: 2rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1711,10 +1703,6 @@ input:checked + .toggle-bg {
   padding: 1.5rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1733,11 +1721,6 @@ input:checked + .toggle-bg {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .py-2 {
@@ -1796,6 +1779,11 @@ input:checked + .toggle-bg {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -2408,10 +2396,6 @@ input:checked + .toggle-bg {
 @media (min-width: 1024px) {
   .lg\:w-1\/2 {
     width: 50%;
-  }
-
-  .lg\:flex-nowrap {
-    flex-wrap: nowrap;
   }
 
   .lg\:px-48 {
